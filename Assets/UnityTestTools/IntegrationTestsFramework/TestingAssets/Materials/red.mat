@@ -7,10 +7,10 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: red
-  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 859e1c86e0e61ad499a683534b252ad6, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -22,7 +22,46 @@ Material:
           m_Texture: {fileID: 2800000, guid: 591632297e74ba34fa4c65d1265d370a, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+      data:
+        first:
+          name: _CursorTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
+          name: _Percent
+        second: 0.1
+      data:
+        first:
+          name: _CursorWid
+        second: 1
+      data:
+        first:
+          name: _CursorHei
+        second: 1
+      data:
+        first:
+          name: _CursorOff
+        second: 0
+      data:
+        first:
+          name: _CursorSpeed
+        second: 1
+      data:
+        first:
+          name: _Borderp
+        second: 0
+      data:
+        first:
+          name: _Factor
+        second: 0.7
     m_Colors:
       data:
         first:

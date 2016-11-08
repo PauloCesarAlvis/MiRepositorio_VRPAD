@@ -2,5 +2,7 @@
 
 function OnTriggerEnter(){
 
-Application.LoadLevel("creoqyaes");
+//Application.LoadLevel("creoqyaes");
+
+
 }
