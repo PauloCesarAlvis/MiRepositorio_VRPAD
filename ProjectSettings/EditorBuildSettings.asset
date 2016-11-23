@@ -6,9 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/EntrenamientoUno.unity
+  - enabled: 1
+    path: Assets/EntrenamientoDos.unity
+  - enabled: 1
+    path: Assets/EntrenamientoTres.unity
+  - enabled: 1
+    path: Assets/EscenaUno.unity
+  - enabled: 1
     path: Assets/EscenaDos.unity
   - enabled: 1
-    path: Assets/NuevoEntorno.unity
+    path: Assets/EscenaTres.unity
   - enabled: 0
     path: Assets/Rotar&Trasladar.unity
   - enabled: 0

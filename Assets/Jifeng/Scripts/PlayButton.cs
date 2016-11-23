@@ -19,19 +19,25 @@ namespace Jifeng.DemoSoftVr
             break;
             case "right":
             {
-					Application.LoadLevel("NuevoEntorno");
+					Application.LoadLevel("EscenaTres");
             }
             break;
             case "left":
             {
-               // Application.LoadLevel("JfAgileDemo");
+                Application.LoadLevel("EscenaUno");
             }
             break;
             case "back":
             {
-                //Application.LoadLevel("JfExperienceDemo");
+                //Application.LoadLevel("EscenaUno");
             }
             break;
+				//este caso no funciona porque se llama desde otro gameable.
+			case "entrenaUno":
+				{
+					Application.LoadLevel("EscenaUno");
+				}
+				break;
             }
         }
     }    
