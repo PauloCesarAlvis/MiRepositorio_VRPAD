@@ -2,5 +2,5 @@
 
 function OnTriggerEnter(){
 
-Application.LoadLevel("Rotar&Trasladar");
+Application.LoadLevel("EscenaMenu");
 }
