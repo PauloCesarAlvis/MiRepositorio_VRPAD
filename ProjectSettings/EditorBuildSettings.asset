@@ -5,18 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/EntrenamientoUno.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/EntrenamientoDos.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/EntrenamientoTres.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/EscenaUno.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/EscenaDos.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/EscenaTres.unity
+  - enabled: 0
+    path: Assets/EscenaCuatro.unity
   - enabled: 0
     path: Assets/Rotar&Trasladar.unity
   - enabled: 0
@@ -25,3 +27,9 @@ EditorBuildSettings:
     path: Assets/Cardboard/DemoScene/DemoScene.unity
   - enabled: 0
     path: Assets/Menu.unity
+  - enabled: 1
+    path: Assets/EscenaMenu.unity
+  - enabled: 1
+    path: Assets/EscenaCinco.unity
+  - enabled: 1
+    path: Assets/EscenaSeis.unity

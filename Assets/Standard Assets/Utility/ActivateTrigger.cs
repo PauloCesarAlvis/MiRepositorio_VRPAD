@@ -28,12 +28,29 @@ namespace UnityStandardAssets.Utility
         private void DoActivateTrigger()
         {
             triggerCount--;
-
-            if (triggerCount == 0 || repeatTrigger)
+	
+			if (triggerCount < 1 || repeatTrigger)
             {
                 Object currentTarget = target ?? gameObject;
                 Behaviour targetBehaviour = currentTarget as Behaviour;
                 GameObject targetGameObject = currentTarget as GameObject;
+
+				//Al salir del salon el valor ser -1 y el modo de animacion pasa a Once o 1 sola  vez para no
+				//gastar recursos renderizando algo que el usuario no esta mirando. 
+				if (triggerCount == -1) { //para detener la animacion al salir del salon
+					targetGameObject.GetComponent<Animation> ().wrapMode = WrapMode.Once;
+					//se desactiva el objeto para minimizar renderización.
+					targetGameObject.SetActive(false);
+					//lo pasa a 1 para cuando vuelva al mismo salon, inicie la animacion modo ping pong 
+					//repitiendose tantas veces mientras el usuario este en el salon. 
+					triggerCount = 1;
+				} else {
+					//se activa para que el usuario pueda visualizar el objeto.
+					targetGameObject.SetActive(true);
+					//si el contador es 1 se convierte el modo de animacion en ping pong.
+					targetGameObject.GetComponent<Animation> ().wrapMode = WrapMode.PingPong;
+				}
+
                 if (targetBehaviour != null)
                 {
                     targetGameObject = targetBehaviour.gameObject;
@@ -59,9 +76,9 @@ namespace UnityStandardAssets.Utility
                         }
                         break;
                     case Mode.Activate:
-                        if (targetGameObject != null)
+					if (targetGameObject != null)
                         {
-                            targetGameObject.SetActive(true);
+			             targetGameObject.SetActive(true);
                         }
                         break;
                     case Mode.Enable:
@@ -73,7 +90,8 @@ namespace UnityStandardAssets.Utility
                     case Mode.Animate:
                         if (targetGameObject != null)
                         {
-                            targetGameObject.GetComponent<Animation>().Play();
+						targetGameObject.GetComponent<Animation>().Play();
+
                         }
                         break;
                     case Mode.Deactivate:
@@ -83,7 +101,7 @@ namespace UnityStandardAssets.Utility
                         }
                         break;
                 }
-            }
+			 }
         }
 
 

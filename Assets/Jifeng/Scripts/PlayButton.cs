@@ -29,7 +29,7 @@ namespace Jifeng.DemoSoftVr
             break;
             case "back":
             {
-                //Application.LoadLevel("EscenaUno");
+                Application.LoadLevel("EscenaCuatro");
             }
             break;
 				//este caso no funciona porque se llama desde otro gameable.
