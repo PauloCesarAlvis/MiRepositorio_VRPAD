@@ -22,8 +22,11 @@ ModelImporter:
     100028: x_
     100030: y_
     100032: z_
+<<<<<<< HEAD
     100034: Z_Function
     100036: Z_Function_002
+=======
+>>>>>>> origin/master
     400000: centro
     400002: cuadricula
     400004: eje_final_xy
@@ -41,8 +44,11 @@ ModelImporter:
     400028: x_
     400030: y_
     400032: z_
+<<<<<<< HEAD
     400034: Z_Function
     400036: Z_Function_002
+=======
+>>>>>>> origin/master
     2300000: centro
     2300002: cuadricula
     2300004: eje_final_xy
@@ -59,8 +65,11 @@ ModelImporter:
     2300026: x_
     2300028: y_
     2300030: z_
+<<<<<<< HEAD
     2300032: Z_Function
     2300034: Z_Function_002
+=======
+>>>>>>> origin/master
     3300000: centro
     3300002: cuadricula
     3300004: eje_final_xy
@@ -77,8 +86,11 @@ ModelImporter:
     3300026: x_
     3300028: y_
     3300030: z_
+<<<<<<< HEAD
     3300032: Z_Function
     3300034: Z_Function_002
+=======
+>>>>>>> origin/master
     4300000: plano
     4300002: cuadricula
     4300004: eje_final_xy
@@ -95,8 +107,11 @@ ModelImporter:
     4300026: z_
     4300028: objeto_final
     4300030: paraboloide_sobrante
+<<<<<<< HEAD
     4300032: Z_Function
     4300034: Z_Function_002
+=======
+>>>>>>> origin/master
     7400000: Default Take
     9500000: //RootNode
     11100000: //RootNode

@@ -44,7 +44,10 @@ ModelImporter:
     4300012: regla
     7400000: Default Take
     9500000: //RootNode
+<<<<<<< HEAD
     11100000: //RootNode
+=======
+>>>>>>> origin/master
   materials:
     importMaterials: 1
     materialName: 0
@@ -103,7 +106,11 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+<<<<<<< HEAD
   animationType: 1
+=======
+  animationType: 2
+>>>>>>> origin/master
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

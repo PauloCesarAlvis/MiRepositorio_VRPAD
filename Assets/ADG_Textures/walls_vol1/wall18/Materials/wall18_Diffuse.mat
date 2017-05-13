@@ -142,7 +142,11 @@ Material:
       data:
         first:
           name: _Color
+<<<<<<< HEAD
         second: {r: 0.68235296, g: 0.68235296, b: 0.68235296, a: 1}
+=======
+        second: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> origin/master
       data:
         first:
           name: _SpecColor
